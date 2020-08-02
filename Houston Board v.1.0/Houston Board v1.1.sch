@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21732,24 +21732,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 <wire x1="0" y1="0.25" x2="0" y2="-0.25" width="0.1" layer="21"/>
 </package>
-<package name="0603CS82NXGLW">
-<description>&lt;b&gt;0603CS-82NXGLW&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="0" y="0.64" dx="1.02" dy="0.64" layer="1"/>
-<smd name="2" x="0" y="-0.64" dx="1.02" dy="0.64" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.56" y1="0.9" x2="0.56" y2="0.9" width="0.2" layer="51"/>
-<wire x1="0.56" y1="0.9" x2="0.56" y2="-0.9" width="0.2" layer="51"/>
-<wire x1="0.56" y1="-0.9" x2="-0.56" y2="-0.9" width="0.2" layer="51"/>
-<wire x1="-0.56" y1="-0.9" x2="-0.56" y2="0.9" width="0.2" layer="51"/>
-<wire x1="-0.86" y1="1.26" x2="0.86" y2="1.26" width="0.1" layer="51"/>
-<wire x1="0.86" y1="1.26" x2="0.86" y2="-1.26" width="0.1" layer="51"/>
-<wire x1="0.86" y1="-1.26" x2="-0.86" y2="-1.26" width="0.1" layer="51"/>
-<wire x1="-0.86" y1="-1.26" x2="-0.86" y2="1.26" width="0.1" layer="51"/>
-<wire x1="-0.56" y1="0.2" x2="-0.56" y2="-0.2" width="0.1" layer="21"/>
-<wire x1="0.56" y1="0.2" x2="0.56" y2="-0.2" width="0.1" layer="21"/>
-</package>
 <package name="SOT95P280X110-5N">
 <description>&lt;b&gt;sot 23&lt;/b&gt;&lt;br&gt;
 </description>
@@ -21818,16 +21800,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <pin name="PON" x="0" y="-5.08" length="middle"/>
 </symbol>
 <symbol name="LQG15HS27NJ02D">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="0603CS-7N5XGLU">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -21944,31 +21916,6 @@ Source: &lt;a href="https://psearch.en.murata.com/inductor/product/LQG15HS27NJ02
 <attribute name="MANUFACTURER_PART_NUMBER" value="LQG15HS27NJ02D" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="81-LQG15HS27NJ02D" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS27NJ02D?qs=ctz47l0uL1AbPpSO0oLF1A%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0603CS-7N5XGLU" prefix="L">
-<description>&lt;b&gt;COILCRAFT - 0603CS-7N5XGLU - High Frequency Inductor, 7.5 nH, 0603CS Series, 700 mA, 0603 [1608 Metric], Wirewound, 0.106 ohm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.coilcraft.com/pdfs/0603cs.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="0603CS-7N5XGLU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603CS82NXGLW">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="COILCRAFT - 0603CS-7N5XGLU - High Frequency Inductor, 7.5 nH, 0603CS Series, 700 mA, 0603 [1608 Metric], Wirewound, 0.106 ohm" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="COILCRAFT" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603CS-7N5XGLU" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25314,55 +25261,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="mylbr">
-<packages>
-<package name="LTF5022T">
-<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1"/>
-<smd name="2" x="3.175" y="0" dx="1.5" dy="1.5" layer="1"/>
-<wire x1="-0.635" y1="1.27" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<text x="-0.635" y="3.81" size="0.6096" layer="21">&gt;NAME</text>
-<text x="-0.635" y="3.175" size="0.6096" layer="21">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="LTF5022T">
-<pin name="2" x="2.54" y="0" length="middle"/>
-<pin name="1" x="-7.62" y="0" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-12.7" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LTF5022T">
-<description>Inductor, 10uH</description>
-<gates>
-<gate name="G$1" symbol="LTF5022T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="100M1R4-LC" package="LTF5022T">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ESP32-WROOM-32D">
 <packages>
 <package name="MODULE_ESP32-WROOM-32D">
@@ -26502,6 +26400,112 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="LQW18AS7N5J0ZD">
+<packages>
+<package name="INDC1608X100N">
+<text x="-1.51" y="-0.9" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.51" y="0.9" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.9" y1="-0.55" x2="-0.9" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.55" x2="-0.9" y2="0.55" width="0.127" layer="51"/>
+<wire x1="0.9" y1="-0.55" x2="0.9" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="-0.55" x2="-0.9" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-1.508" y1="-0.805" x2="1.508" y2="-0.805" width="0.05" layer="39"/>
+<wire x1="-1.508" y1="0.805" x2="1.508" y2="0.805" width="0.05" layer="39"/>
+<wire x1="-1.508" y1="-0.805" x2="-1.508" y2="0.805" width="0.05" layer="39"/>
+<wire x1="1.508" y1="-0.805" x2="1.508" y2="0.805" width="0.05" layer="39"/>
+<smd name="1" x="-0.814" y="0" dx="0.89" dy="1.11" layer="1"/>
+<smd name="2" x="0.814" y="0" dx="0.89" dy="1.11" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LQW18AS7N5J0ZD">
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LQW18AS7N5J0ZD" prefix="L">
+<description>FIXED IND 7.5NH 700MA 106 MOHM </description>
+<gates>
+<gate name="G$1" symbol="LQW18AS7N5J0ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Inductor with Inductance: 7.5nH Tol. +/-5%, Package: 0603 (1608) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-15853-1-ND"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=1573408"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=1573408"/>
+<attribute name="MP" value="LQW18AS7N5J0ZD"/>
+<attribute name="PACKAGE" value="1608 Murata"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="LTF5022T">
+<packages>
+<package name="LTF5022T">
+<text x="-1.285" y="3.16" size="0.6096" layer="21">&gt;NAME</text>
+<text x="-1.285" y="-3.325" size="0.6096" layer="21">&gt;VALUE</text>
+<smd name="P$1" x="-2.35" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="P$2" x="2.35" y="0" dx="1.5" dy="1.5" layer="1"/>
+<wire x1="1.3" y1="-2.6" x2="-1.3" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.3" x2="-1.3" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2.6" x2="1.3" y2="2.6" width="0.127" layer="21"/>
+<wire x1="1.3" y1="2.6" x2="2.6" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.3" x2="2.6" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.3" x2="1.3" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.3" x2="-1.3" y2="-2.6" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LTF5022T">
+<pin name="2" x="2.54" y="0" length="middle"/>
+<pin name="1" x="-7.62" y="0" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-12.7" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTF5022T">
+<description>Inductor, 10uH</description>
+<gates>
+<gate name="G$1" symbol="LTF5022T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="100M1R4" package="LTF5022T">
+<connects>
+<connect gate="G$1" pin="1" pad="P$2"/>
+<connect gate="G$1" pin="2" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26552,14 +26556,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="IC2" library="TP4056" deviceset="TP4056" device=""/>
 <part name="U$2" library="DW01" deviceset="DW01" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.5K"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="CHRG1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="STD1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uf"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -26605,7 +26607,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1onF"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="56pF"/>
 <part name="L4-27NH1" library="SamacSys_Parts" deviceset="LQG15HS27NJ02D" device=""/>
-<part name="L2-7,5NH1" library="SamacSys_Parts" deviceset="0603CS-7N5XGLU" device=""/>
+<part name="L2-7,5NH1" library="LQW18AS7N5J0ZD" deviceset="LQW18AS7N5J0ZD" device=""/>
 <part name="IC7" library="SamacSys_Parts" deviceset="ST1S12GR" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="56pF"/>
 <part name="R13" library="rcl (2)" deviceset="R-EU_" device="M1206" value="1M"/>
@@ -26616,7 +26618,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$3" library="mylbr" deviceset="LTF5022T" device="100M1R4-LC"/>
+<part name="U$3" library="LTF5022T" deviceset="LTF5022T" device="100M1R4"/>
 <part name="U6" library="ESP32-WROOM-32D" deviceset="ESP32-WROOM-32D" device=""/>
 <part name="COMM_CAN_TRANSCEIVER1" library="SN65HVD233D" deviceset="SN65HVD233D" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
@@ -26633,7 +26635,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM"/>
 <part name="P2" library="con-molex-picoblade" deviceset="53398-0610" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120R"/>
 </parts>
 <sheets>
 <sheet>
@@ -26664,6 +26666,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="415.798" y1="28.702" x2="415.798" y2="12.7" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="551.18" y1="-30.48" x2="551.18" y2="28.448" width="0.1524" layer="94"/>
 <text x="597.66" y="22.24" size="5.08" layer="94">ESP32-WROOM</text>
+<text x="449.58" y="30.48" size="1.778" layer="95">Resistor de Programação : 1K - 780mA(Ibat)</text>
+<text x="363.22" y="170.18" size="2.54" layer="94">Diodo DCDC</text>
+<text x="363.22" y="129.54" size="2.54" layer="94">Diodo FTDI</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="632.46" y="134.62" smashed="yes">
@@ -26825,14 +26830,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <attribute name="NAME" x="522.704" y="64.468" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="529.435" y="69.548" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="448.282" y="67.262" smashed="yes" rot="R90">
-<attribute name="NAME" x="446.7834" y="63.452" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="451.584" y="63.452" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R18" gate="G$1" x="448.282" y="49.228" smashed="yes" rot="R90">
-<attribute name="NAME" x="446.7834" y="45.418" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="451.584" y="45.418" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND21" gate="1" x="448.282" y="37.036" smashed="yes">
 <attribute name="VALUE" x="445.742" y="34.496" size="1.778" layer="96"/>
 </instance>
@@ -26978,9 +26975,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <attribute name="NAME" x="435.61" y="8.89" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="435.61" y="6.35" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="L2-7,5NH1" gate="G$1" x="482.6" y="-53.34" smashed="yes">
-<attribute name="NAME" x="483.87" y="-54.61" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="483.87" y="-57.15" size="1.778" layer="96" align="center-left"/>
+<instance part="L2-7,5NH1" gate="G$1" x="490.22" y="-53.34" smashed="yes">
+<attribute name="NAME" x="491.49" y="-54.61" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="491.49" y="-57.15" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="IC7" gate="G$1" x="355.6" y="63.5" smashed="yes">
 <attribute name="NAME" x="379.73" y="71.12" size="1.778" layer="95" align="center-left"/>
@@ -27209,11 +27206,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="467.84" y1="38.56" x2="467.84" y2="39.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="448.282" y1="44.148" x2="448.282" y2="39.576" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="516.1" y1="36.02" x2="516.1" y2="38.56" width="0.1524" layer="91"/>
@@ -27392,6 +27384,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="P2" gate="G$1" pin="6"/>
 <wire x1="688.34" y1="17.78" x2="693.42" y2="17.78" width="0.1524" layer="91"/>
 <label x="693.42" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="TEMP"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="480.54" y1="56.34" x2="448.282" y2="56.34" width="0.1524" layer="91"/>
+<wire x1="448.282" y1="56.34" x2="448.282" y2="39.576" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -27604,6 +27602,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="353.06" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="A" pin="27"/>
 </segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="SCS/CMD"/>
+<wire x1="596.9" y1="-25.4" x2="594.36" y2="-25.4" width="0.1524" layer="91"/>
+<label x="594.36" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
@@ -27634,11 +27637,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="520.7" y="139.7" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="RXD"/>
 </segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="IO17"/>
-<wire x1="637.54" y1="-17.78" x2="640.08" y2="-17.78" width="0.1524" layer="91"/>
-<label x="640.08" y="-17.78" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="UART_RX_BUS" class="0">
 <segment>
@@ -27650,11 +27648,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="518.16" y1="142.24" x2="525.78" y2="142.24" width="0.1524" layer="91"/>
 <label x="520.7" y="142.24" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="TXD"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="IO16"/>
-<wire x1="637.54" y1="-15.24" x2="640.08" y2="-15.24" width="0.1524" layer="91"/>
-<label x="640.08" y="-15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -27880,17 +27873,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="523.72" y1="66.5" x2="523.72" y2="69.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="G$1" pin="TEMP"/>
-<wire x1="448.282" y1="62.182" x2="448.282" y2="56.34" width="0.1524" layer="91"/>
-<wire x1="448.282" y1="54.308" x2="448.282" y2="56.34" width="0.1524" layer="91"/>
-<wire x1="448.282" y1="56.34" x2="480.54" y2="56.34" width="0.1524" layer="91"/>
-<junction x="448.282" y="56.34"/>
-</segment>
-</net>
 <net name="BAT+" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="BAT"/>
@@ -28006,7 +27988,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="X2" gate="G$1" pin="VBUS"/>
 <wire x1="430.5" y1="64.6" x2="436.88" y2="64.6" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="64.6" x2="436.88" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="76.2" x2="448.282" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="436.88" y1="76.2" x2="448.31" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="448.31" y1="76.2" x2="462.28" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="76.2" x2="472.44" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="76.2" x2="502.92" y2="76.2" width="0.1524" layer="91"/>
@@ -28031,9 +28013,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="480.54" y1="48.72" x2="462.28" y2="48.72" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="48.72" x2="462.28" y2="76.2" width="0.1524" layer="91"/>
 <junction x="462.28" y="76.2"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="448.282" y1="72.342" x2="448.282" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="448.282" y1="76.2" x2="448.31" y2="76.2" width="0.1524" layer="91"/>
 <junction x="448.31" y="76.2"/>
 <junction x="508.508" y="78.74"/>
 <label x="436.88" y="76.2" size="1.778" layer="95"/>
@@ -28190,7 +28169,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <pinref part="L2-7,5NH1" gate="G$1" pin="2"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-53.34" x2="505.46" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="-53.34" x2="505.46" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
